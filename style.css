@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Cinzel', serif;
+}
+
+#app {
+    background-color: aquamarine;
+    height: 800px;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+img {
+    margin: 20px;
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+#game {
+    background-color: lightcoral;
+    height: 800px;
+    width: 100%;
+}
+
+.line {
+    margin: 8px auto;
+    width: 75px;
+    height: 6px;
+    background-color: darkslategrey;
+}
+
+#chatbot {
+    background-color: aquamarine;
+    height: 800px;
+    width: 100%;
+}
