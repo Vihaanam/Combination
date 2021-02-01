@@ -7,32 +7,118 @@
     <script src="main.js"></script>
     <link rel="icon" href="OgKf0.png">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <section id="app">
-        <h1>Apps</h1>
-        <div class="line"></div>
-        <br>
-        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/M4yyWrjZRZ-C4jnLS-XVkGNz7o-V8OD7UM-TMJCGyZ9/embed?nosource"></iframe>
-        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/qce1ND8RZI-WHGNJgs-qZ6TpSjzcFxhWrjTykGht8FH/embed?nosource"></iframe>
-        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/iVYNV3c1TLrX6cWsjU10neupETtOmu2mVvrbKoGD8DO/embed?nosource"></iframe>
-    </section>
-    <section id="game">
-        <h1>Games</h1>
-        <div class="line"></div>
-        <br>
-        <div>
-            <a href="https://studio.code.org/projects/spritelab/JjsGqPxsukqnFNOwJQg0dgfJ5ZFJi3psF18HxU5TBMY" target="_blank"><img src="smash.png"></a>
-            <a href="https://studio.code.org/projects/spritelab/0Onf05g0PH8f-6TuZL333_gL8wa9_lDemuhyP2miXVs" target="_blank"><img src="hero.png"></a>
-            <a href="https://studio.code.org/projects/spritelab/Py2JQAuF78vtA5LNc9961vH_4tRb02m0PqIq_h7i3pQ" target="_blank"><img src="Ninja.png"></a>
-        </div>
-    </section>
-    <section id="chatbot">
-        <h1>Chatbot</h1>
-        <div class="line"></div>
-        <br>
-        <iframe allow="microphone;" width="350" height="500" src="https://console.dialogflow.com/api-client/demo/embedded/2fb9fa1b-b0a1-42b5-b66d-94bcd27b7583"></iframe>
-        <br>
-    </section>
+    <div class="container">
+        <section id="app">
+            <h1>Apps</h1>
+            <div class="line"></div>
+            <br>
+            <h2>Click on the apps to explore</h2>
+            <h5>These apps are built in app lab. Click run or click on the apps to run them.</h5>
+            <div id="mycarousel2" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+                            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/M4yyWrjZRZ-C4jnLS-XVkGNz7o-V8OD7UM-TMJCGyZ9/embed?nosource"></iframe>
+                            <div class="carousel-content">
+                                <p>Rock paper scissor</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/qce1ND8RZI-WHGNJgs-qZ6TpSjzcFxhWrjTykGht8FH/embed?nosource"></iframe>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/iVYNV3c1TLrX6cWsjU10neupETtOmu2mVvrbKoGD8DO/embed?nosource"></iframe>
+                        </center>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#mycarousel2" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a class="right carousel-control" href="#mycarousel2" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </section>
+        <section id="game">
+            <h1>Games</h1>
+            <div class="line"></div>
+            <br>
+            <h2>Click on the games to explore</h2>
+            <h5>These games are built in sprite lab. Click on the games to play.</h5>
+            <div id="mycarouselfirst" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+                            <a href="https://studio.code.org/projects/spritelab/JjsGqPxsukqnFNOwJQg0dgfJ5ZFJi3psF18HxU5TBMY" target="_blank"><img src="smash.png" class="img-responsive"></a>
+                            <div class="carousel-content">
+                                <p>Rock smash</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <a href="https://studio.code.org/projects/spritelab/0Onf05g0PH8f-6TuZL333_gL8wa9_lDemuhyP2miXVs" target="_blank"><img src="hero.png" class="img-responsive"></a>
+                            <div class="carousel-content">
+                                <p>Hero, cucumber and drone</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <a href="https://studio.code.org/projects/spritelab/Py2JQAuF78vtA5LNc9961vH_4tRb02m0PqIq_h7i3pQ" target="_blank"><img src="Ninja.png" class="img-responsive"></a>
+                            <div class="carousel-content">
+                                <p>Ninja</p>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#mycarouselfirst" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a class="right carousel-control" href="#mycarouselfirst" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </section>
+        <section id="chatbot">
+            <h1>Chatbot</h1>
+            <div class="line"></div>
+            <br>
+            <h2>Click on the chatbots to explore</h2>
+            <h5>These chatbots are built on dialogflow. Enter text or use the mic.</h5>
+            <div id="mycarousel3" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+                            <iframe allow="microphone;" width="350" height="500" src="https://console.dialogflow.com/api-client/demo/embedded/2fb9fa1b-b0a1-42b5-b66d-94bcd27b7583"></iframe>
+                            <div class="carousel-content">
+                                <p>Personal chatbot</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <iframe allow="microphone;" width="350" height="500" src="https://console.dialogflow.com/api-client/demo/embedded/17824ed3-8bd5-4714-9683-991fe4e815d0"></iframe>
+                            <div class="carousel-content">
+                                <p>Covid-19 Bot</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <iframe allow="microphone;" width="350" height="500" src="https://console.dialogflow.com/api-client/demo/embedded/a43c817d-86b8-4872-a10c-0e577f6e606c"></iframe>
+                            <div class="carousel-content">
+                                <p>City Bot</p>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#mycarousel3" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a class="right carousel-control" href="#mycarousel3" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+            <br>
+        </section>
+    </div>
 </body></html>

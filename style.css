@@ -9,15 +9,18 @@ h1 {
 
 #app {
     background-color: aquamarine;
-    height: 800px;
+    height: 900px;
     width: 100%;
     left: 0;
     top: 0;
 }
 
 img {
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     transition: transform .2s;
+    margin-top: 35px;
 }
 
 img:hover {
@@ -41,4 +44,15 @@ img:hover {
     background-color: aquamarine;
     height: 800px;
     width: 100%;
+}
+
+.container {
+    text-align: center;
+}
+
+.carousel-inner {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: yellowgreen;
+    font-size: 25px;
 }
